@@ -1,0 +1,123 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper{
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+.title_head{
+    display : grid;
+    grid-template-columns:80% 20%;
+    grid-gap: 5px;
+}
+.title{
+    padding-left: 10px;
+    background-color: #2f3c7e;
+    color: #fbeaeb;
+}
+.menu_options{
+   
+    background-color:#fbeaeb;
+    color:#2f3c7e;
+}
+.menu_options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.icon_style{
+    padding:10px;
+    align-self:end;
+    text-align: center;
+}
+.category_select{
+    background-color: #2f3c7e;
+    text-align: center;
+    border: 1px solid black;
+    padding:20px;
+}
+.prod_container{
+        display:grid;
+        float:left;
+        grid-template-columns: repeat(2,auto);
+        grid-gap: 10px;
+        
+    }
+.products{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        margin:25px;
+        
+        border-radius: 10px;
+        box-shadow: 0 7px 6px -4px #2f3c7e;
+    }
+    
+    }
+.picnprice{
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-gap:5px;
+       
+        padding: 5px;
+        border-radius: 10px;    
+    }
+.details{
+        display: grid;
+        grid-template-rows: auto auto auto;
+        border-radius: 10px;
+        background-color: #fbeaeb;
+        text-align: center;
+    }
+.pic{
+    padding: 5px;
+    text-align: center;
+}
+.price{
+    padding: 10px;
+    text-align: center;
+    background-color:#2f3c7e; 
+    color: #fbeaeb;
+    border-radius: 10px;
+    justify-self:end;
+    
+}
+.button_cart{
+    color: black;
+     padding:10px;
+}
+.name{
+    padding: 10px;
+    background-color:#2f3c7e; 
+    color: #fbeaeb;
+    border-radius:10px;
+}
+.specs{
+    padding: 10px;
+}
+.cart{
+    padding: 0% 10% 0% 10%;
+}
+.cart_title{
+    background-color: #2f3c7e;
+    color: #fbeaeb;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.text{
+    color: dimgray;
+    text-align: center;
+}
+.checkout{
+    text-align: center;
+    box-shadow: 0 7px 6px -4px #2f3c7e;
+    background-color: #fbeaeb;
+    border-radius: 20px;
+    padding:20px;
+}
+.amnt{
+    color: green;
+}
